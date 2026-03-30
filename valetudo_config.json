@@ -1,0 +1,90 @@
+{
+  "embedded": false,
+  "robot": {
+    "implementation": "MockValetudoRobot",
+    "implementationSpecificConfig": {}
+  },
+  "webserver": {
+    "port": 3000,
+    "basicAuth": {
+      "enabled": false,
+      "username": "valetudo",
+      "password": "valetudo"
+    },
+    "blockExternalAccess": false
+  },
+  "mqtt": {
+    "enabled": false,
+    "connection": {
+      "host": "foobar.example",
+      "port": 1883,
+      "tls": {
+        "enabled": false,
+        "ca": "",
+        "ignoreCertificateErrors": false
+      },
+      "authentication": {
+        "credentials": {
+          "enabled": false,
+          "username": "",
+          "password": ""
+        },
+        "clientCertificate": {
+          "enabled": false,
+          "certificate": "",
+          "key": ""
+        }
+      }
+    },
+    "identity": {
+      "identifier": ""
+    },
+    "interfaces": {
+      "homie": {
+        "enabled": true,
+        "cleanAttributesOnShutdown": false
+      },
+      "homeassistant": {
+        "enabled": true,
+        "cleanAutoconfOnShutdown": false
+      }
+    },
+    "customizations": {
+      "topicPrefix": "",
+      "provideMapData": true
+    },
+    "optionalExposedCapabilities": []
+  },
+  "ntpClient": {
+    "enabled": false,
+    "server": "valetudo.pool.ntp.org",
+    "port": 123,
+    "interval": 28800000,
+    "timeout": 10000
+  },
+  "timers": {},
+  "logLevel": "info",
+  "debug": {
+    "debugHassAnchors": false,
+    "storeRawFDSUploads": false
+  },
+  "networkAdvertisement": {
+    "enabled": false
+  },
+  "updater": {
+    "enabled": false,
+    "updateProvider": {
+      "type": "github",
+      "implementationSpecificConfig": {}
+    }
+  },
+  "oobe": {
+    "welcomeDialogDismissed": false
+  },
+  "valetudo": {
+    "customizations": {
+      "friendlyName": "Demo Robot"
+    }
+  },
+  "_version": "unknown"
+}
