@@ -11,7 +11,7 @@ This demo package contains:
 
 ## Video
 
-[![Watch the video](https://img.youtube.com/vi/VIDEO_ID/0.jpg)](./demo/ValetudoUiDemo.mp4)
+https://raw.githubusercontent.com/mareksagan/valetudo-demo/refs/heads/main/demo/ValetudoUiDemo.mp4
 
 ## Quick Start
 
