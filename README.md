@@ -11,7 +11,10 @@ This demo package contains:
 
 ## Video
 
-[Watch the demo](./demo/ValetudoUiDemo.mp4)
+<video width="600" controls>
+  <source src="./demo/ValetudoUiDemo.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
 
 ## Quick Start
 
