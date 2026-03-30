@@ -9,6 +9,10 @@ This demo package contains:
 - **Backend**: Node.js server with MockValetudoRobot (simulates a real robot)
 - **Mock Data**: Full interactive map, robot state, consumables, timers, events, etc.
 
+## Video
+
+[Watch the demo](./demo/ValetudoUiDemo.mp4)
+
 ## Quick Start
 
 ### Prerequisites
